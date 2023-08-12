@@ -37,7 +37,7 @@ for (let i = 0; i < navLinks.length; i++) {
 
 
 async function getWeather(country) {
-    let response = await fetch(` http://api.weatherapi.com/v1/forecast.json?key=7529bd0a59f74509a92104827230708&q=${country}&days=7`)
+    let response = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=7529bd0a59f74509a92104827230708&q=${country}&days=7`)
     weatherObject = await response.json()
     displayDay0(weatherObject)
     displayDay1(weatherObject)
