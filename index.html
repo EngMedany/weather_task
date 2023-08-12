@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/all.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+<body>
+		
+ <div class="content-site">
+  <nav class="navbar navbar-expand-lg navbar-dark ">
+    <div class="container w-75 ">
+      <a class="navbar-brand d-flex ms-5 " href="#">
+        <img src="images/logo@2x.png" width="70" height="40"  alt="" srcset="">
+        <div class="div ps-3 ">
+          Weather <span class="title ">tagline goes here</span>
+        </div>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-3  ">
+          <li class="nav-item active">
+            <a href="#home" class="nav-link ">Home</a>
+            
+          </li>
+          <li class="nav-item">
+            <a href="#News" class="nav-link">News</a>
+            
+          </li>
+          <li class="nav-item">
+            <a href="#Live cameras" class="nav-link">Live cameras</a>
+            
+          </li>
+          <li class="nav-item">
+            <a href="#photos" class="nav-link">photos</a>
+            
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link ">contact</a>
+            
+          </li>
+
+          
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+
+ </div>
+ <section  class="home " id="home">
+
+  <div class="container w-75 pt-5 ">
+    <div class="search ">
+      <input id="inp"   type="text" class="search-input py-3 text-white" placeholder="Find your location...">
+      <button  class="search-button" type="submit">Find</button>  
+    </div>
+
+  
+  </div>
+<div class="container w-75 pt-5">
+  
+  <div class="box-content ms-3">
+    
+    <div class="row">
+      <div class="col-lg-4  ">
+        <div class="item overflow-hidden">
+          <div class="carrd">
+            <div class="header-box d-flex justify-content-between  py-1">
+             <span id="day0" class="lead fs-6">tuesday</span>
+             <span id="month0" class="right-text lead fs-6">8August</span>
+            </div>
+            <div class="forecast d-flex flex-column gap-4 p-2">
+             <div class="location text-white  ">Cairo</div>
+            <div class="degree">
+             <div class="numdegree d-flex justify-content-between">
+               <p>33<span>&#8451;</span></p>
+               <img src="images/113.png" class="w-50"  alt="">
+             </div>
+            </div>
+            <div class="custom text-primary  ">Sunny</div>
+            <div class="footer-body d-flex gap-2 ">
+             <span class="text-white "><img src="images/icon-umberella.png" alt="">20%</span>
+            <span class="text-white  "><img src="images/icon-wind.png" alt="">18km/h</span>
+            <span class="text-white "><img src="images/icon-compass.png" alt="">East</span>
+            </div>
+            </div>
+            
+            
+           </div>
+        </div>
+      </div>
+      <div class="col-lg-4 ">
+        <div class="item bg-color overflow-hidden">
+          <div class="carrd   rounded-5 rounded-circle ">
+            <div class="header-box d-flex justify-content-between  py-1">
+             <span id="d1"class="m-auto fs-6">friday</span>
+            
+            </div>
+            <div class="div d-flex flex-column align-items-center">
+              <div class="icon py-4 mt-3">
+                <img id="iconDay1" src="images/113.png" width="50" alt="">
+              </div>
+              <div class="degree pt-2 d-flex flex-column align-items-center">
+                <p id="max-temp1" class="  text-white fs-4">33.1<span>&#8451;</span> </p>
+                <span id="sm-temp1" class=" fs-6 ps-2 mb-2 ">29.2<sup>o</sup></span>
+               
+              </div>
+              <div id="day1" class="status text-primary ">
+                Sunny
+              </div>
+            </div>
+            
+            
+           </div>
+        </div>
+      </div>
+      <div class="col-lg-4  pb-3">
+        <div class="item overflow-hidden">
+          <div class="carrd  rounded-5 rounded-circle ">
+            <div class="header-box d-flex justify-content-between  py-1">
+             <span id="d2" class="m-auto">tuesday</span>
+             
+            </div>
+            <div class="div d-flex flex-column align-items-center">
+              <div  class="icon py-4 mt-3">
+                <img  id="iconDay2" src="images/113.png" width="50" alt="">
+              </div>
+              <div class="degree pt-2 d-flex flex-column align-items-center">
+                <p id="max-temp2" class=" text-white fs-4">33.1<span>&#8451;</span>  </p>
+                <span id="sm-temp2" class=" fs-6 ps-2 mb-2">29.2<sup>o</sup></span>
+               
+               
+              </div>
+              <div id="day2" class="status text-primary ">
+                Sunny
+              </div>
+            </div>
+            
+            
+           </div>
+        </div>
+      </div>
+      
+    </div> 
+    
+    
+    
+      
+    
+     
+    </div>
+
+  </div>
+  
+        
+ 
+      
+
+
+
+</section>
+
+
+<div class="footer">
+  <div class="container w-75">
+    <div class="row g-2">
+      <div class="col-md-8">
+        <div class="search">
+          <input type="text" class="search-input py-3" placeholder="Enter your email to subscribe...">
+          <button class="search-button" type="submit">Subscribe</button>  
+        </div>
+
+      </div>
+
+      <div class="col-md-3 col-md-offset-1">
+        <div class="social-links d-flex gap-2">
+          <a href="https://facebook.com" target="_blank" >
+            <i class="fa-brands fa-facebook fa-2xl"></i>
+          </a>
+          <a href="https://twitter.com" target="_blank">
+            <i class="fa-brands fa-twitter fa-2xl"></i>
+          </a>
+          <a href="https://google.com" target="_blank">
+            
+            <i class="fa-brands fa-google-plus fa-2xl"></i>
+          </a>
+          <a href="https://pinterest.com" target="_blank">
+            <i class="fa-brands fa-pinterest fa-2xl"></i>
+          </a>
+
+          
+        </div>
+      </div>
+
+      <p class="text-white py-4">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+    </div>
+   
+  </div>
+</div>
+
+
+
+
+
+
+  
+  
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+<!-- 
+<div class="row ">
+      
+  <div class="col-md-4">
+   <div class="box-body">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="item ">
+          <div class="box-header text-white d-flex justify-content-between px-1 ">
+            <span>tuesday</span>
+            <span>9August</span>
+          </div>
+
+        </div>
+        
+      </div>
+        <div class="col-md-12">
+          <div class="location ">
+            Cairo
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="degree">
+            <div class="degree-num  d-flex gap-5">
+              <p>33<span>&#8451;</span></p>
+              <img src="images/113.png" width="80" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="custom text-primary ps-2 pb-4 ">Sunny</div>
+        </div>
+        <div class="col-md-12">
+          <div class="footer-body pb-5 ">
+            <span class="text-white ms-2"><img src="images/icon-umberella.png" alt="">20%</span>
+           <span class="text-white  ms-3"><img src="images/icon-wind.png" alt="">18km/h</span>
+           <span class="text-white  ms-3"><img src="images/icon-compass.png" alt="">East</span>
+           </div>
+        </div>
+      
+    </div>
+   </div>
+  </div>
+  <div class="col-md-4">
+    <div class="box-body">
+     <div class="row">
+       <div class="col-md-12">
+         <div class="item ">
+           <div class="box-header text-white d-flex justify-content-between px-1 ">
+             <span>tuesday</span>
+             <span>9August</span>
+           </div>
+
+         </div>
+         
+       </div>
+         <div class="col-md-12">
+           <div class="location ">
+             Cairo
+           </div>
+         </div>
+         <div class="col-md-12">
+           <div class="degree">
+             <div class="degree-num  d-flex gap-5">
+               <p>33<span>&#8451;</span></p>
+               <img src="images/113.png" width="80" alt="">
+             </div>
+           </div>
+         </div>
+         <div class="col-md-12">
+           <div class="custom text-primary ps-2 pb-4 ">Sunny</div>
+         </div>
+         <div class="col-md-12">
+           <div class="footer-body pb-5 ">
+             <span class="text-white ms-2"><img src="images/icon-umberella.png" alt="">20%</span>
+            <span class="text-white  ms-3"><img src="images/icon-wind.png" alt="">18km/h</span>
+            <span class="text-white  ms-3"><img src="images/icon-compass.png" alt="">East</span>
+            </div>
+         </div>
+       
+     </div>
+    </div>
+   </div>
+   <div class="col-md-4">
+    <div class="box-body">
+     <div class="row">
+       <div class="col-md-12">
+         <div class="item ">
+           <div class="box-header text-white d-flex justify-content-between px-1 ">
+             <span>tuesday</span>
+             <span>9August</span>
+           </div>
+
+         </div>
+         
+       </div>
+         <div class="col-md-12">
+           <div class="location ">
+             Cairo
+           </div>
+         </div>
+         <div class="col-md-12">
+           <div class="degree">
+             <div class="degree-num  d-flex gap-5">
+               <p>33<span>&#8451;</span></p>
+               <img src="images/113.png" width="80" alt="">
+             </div>
+           </div>
+         </div>
+         <div class="col-md-12">
+           <div class="custom text-primary ps-2 pb-4 ">Sunny</div>
+         </div>
+         <div class="col-md-12">
+           <div class="footer-body pb-5 ">
+             <span class="text-white ms-2"><img src="images/icon-umberella.png" alt="">20%</span>
+            <span class="text-white  ms-3"><img src="images/icon-wind.png" alt="">18km/h</span>
+            <span class="text-white  ms-3"><img src="images/icon-compass.png" alt="">East</span>
+            </div>
+         </div>
+       
+     </div>
+    </div>
+   </div>
+
+</div> -->

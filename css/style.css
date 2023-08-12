@@ -1,0 +1,261 @@
+/* :root{
+    --color:#bfc1c8;
+} */
+
+*{
+    box-sizing: border-box;
+}
+/* .container{
+    width: 80% !important;
+} */
+.content-site{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #1e202b;
+}
+.title{
+    font-size: xx-small;
+    padding-top: 3px;
+    display: block;
+}
+
+nav ul li a{
+    padding: 0 !important;
+
+}
+nav ul li.active{
+    padding: 2px 22px;
+    border: #09c solid 2px;
+    border-radius: 100vh;
+
+}
+nav ul li{
+    padding: 2px 22px;
+    border: transparent solid 2px;
+    border-radius: 100vh;
+}
+
+nav ul li:hover{
+    border-color: #009ad8;
+
+}
+
+/* .btn{
+    background-color: transparent;
+} */
+
+/* .navbar-nav .nav-link:hover{
+    
+} */
+
+/* /////////HOME//////////// */
+.home {
+    background-image: url(../images/banner.png);
+    min-height: 100vh;
+    background-size:100% 50% contain  ;
+    background-color: #1E202B;
+    background-repeat: no-repeat;
+    
+}
+input.form-control:focus{
+box-shadow: none;
+} 
+
+.search{
+    position: relative;
+    width: 100%;
+  }
+  .search-input {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+    padding: 10px 100px 10px 20px; 
+    line-height: 1;
+    outline: none;
+    background: #1e202b;
+    
+  }
+  .search-button {
+    position: absolute;
+    right: 3px; 
+    top: 3px;
+    bottom: 3px;
+    border: 0;
+    width: 90px;
+    background: #09c;
+    color: #fff;
+    outline: none;
+    margin: 0;
+    padding: 0 10px;
+    border-radius: 100px;
+    z-index: 2;
+    
+  }
+  .col-lg-4{
+    padding: 0 !important;
+  }
+
+.container .item{
+    background-color: #323544;
+}
+
+.container .item.bg-color{
+    background-color: #262936;
+}
+.container .item.bg-color .header-box{
+    background-color: #222530;
+
+}
+
+.container .carrd .header-box{
+    width: 100%;
+    height: auto ;
+    background-color: #2D303D;
+    color: #fff;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.container .carrd .header-box .right-text{
+    text-align: right !important;
+    
+}
+.box-body{
+    /* background-color: #1e202b; */
+    color: #fff;
+}
+.footer-body{
+    padding-bottom: 8px ;
+}
+ /* .forecast{
+     background-color: #1e202b; 
+}  */
+.location{
+    font-size: 1.2rem;
+    
+}
+.degree{
+    font-size: 20px;
+
+    font-weight: 700;
+    color: #fff
+}
+
+.status{
+   padding-top: 10px;
+    padding-bottom: 85px;
+} 
+
+.box-content .row .col-md-4:nth-child(1) .item{
+    border-radius: 10px 0 0 10px ;
+}
+.box-content .row .col-md-4:nth-child(3) .item{
+    border-radius: 0 10px 10px 0 ;
+}
+.box-body{
+    background-color: #262936;
+}
+.numdegree{
+    font-size: 90px;
+}
+/*//////////////*/
+.contact{
+    background-color:#1E202B ;
+}
+
+.box-rounded{
+    width: 1000px;
+    height: 50px;
+    background-color: #262936;
+    border-radius: 100vh;
+    
+}
+.box-rounded a{
+    top: 10px;
+    left: 10px;
+    text-decoration: none;
+    color: #B1C1C8;
+}
+.box-rounded i{
+    top: 23px;
+  left: 60px;
+  color: #565A68;
+}
+.box-rounded p{
+    top: 10px;
+  left: 80px;
+  color: #FFFFEC;
+}
+.body{
+    background-color: #262936;
+    padding-bottom: 50px;
+   
+}
+.body  p{
+    padding-top: 180px;
+}
+.locat{
+    color: #B1C1C8;
+}
+.body span{
+    color: #B1C1C8;
+}
+
+.form-body p{
+    color:#BFC1B9 ;
+    font-size: 14px;
+}
+.form-control{
+    background-color: #1E202B !important;
+  
+}
+.form-control::placeholder{
+    color:#fff !important;
+}
+/*///////////////////////*/
+ span.padding{
+    padding-bottom: 30px;
+} 
+
+.footer{
+    background-color: #262936;
+    padding: 50px;
+}
+
+.social-links{
+    padding-top: 10px;
+    padding-left: 60px;
+}
+.social-links a{
+    text-decoration: none;
+}
+
+/*media*/
+
+@media all  and (max-width: 1190px){
+    .forecast .numdegree{
+        font-size: 70px;
+    
+    }
+    .footer-body{
+        padding-bottom: 38px !important;
+    }
+    .cardd .numdegree img{
+        width: 30%;
+    }
+
+
+}
+@media all  and (max-width: 991px){
+    .cardd .numdegree {
+        font-size: 200px;
+        
+    }
+
+}
+@media all  and (max-width: 676px){
+    .cardd .numdegree p{
+        font-size: 50px !important;
+        padding-top: 80px !important ;
+    }
+}
